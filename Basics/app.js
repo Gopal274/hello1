@@ -175,3 +175,8 @@ let secondName = "ojha";
 
 //uppercase
 // console.log(firstName.toUpperCase());
+
+//slice
+
+console.log(firstName.slice(0,3));
+console.log(firstName.slice(1,3));
