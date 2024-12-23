@@ -153,4 +153,7 @@ console.log(10 === 10);
 // 2.equality operator
 
 
-let firstName = "Gopal"
+let firstName = "Gopal";
+let secondName = "ojha";
+let fullName = firstName+secondName;
+console.log(fullName)
