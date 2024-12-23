@@ -153,3 +153,4 @@ console.log(10 === 10);
 // 2.equality operator
 
 
+let firstName = "Gopal"
