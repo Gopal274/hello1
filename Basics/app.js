@@ -169,3 +169,9 @@ let secondName = "ojha";
 // console.log(firstName.length)
 
 //4.cases
+
+//lowercase
+// console.log(firstName.toLowerCase());
+
+//uppercase
+// console.log(firstName.toUpperCase());
