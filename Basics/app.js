@@ -153,7 +153,19 @@ console.log(10 === 10);
 // 2.equality operator
 
 
-let firstName = "Gopal";
+let firstName = "Gopal ";
 let secondName = "ojha";
-let fullName = firstName+secondName;
-console.log(fullName)
+
+
+//1.concatenation
+// fullName = firstName.concat(secondName);
+// console.log(fullName)
+
+//2.Append
+// firstName += "something else "
+// console.log(firstName)
+
+//3.length
+// console.log(firstName.length)
+
+//4.cases
