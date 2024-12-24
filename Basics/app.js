@@ -211,7 +211,11 @@ console.log(message);
 let money = "50" ;
 
 //-convert String into number
-console.log(money)
-money = parseInt(money)
-console.log(money)
+// console.log(money)
+// money = parseInt(money)
+// money = +money;
+// money = Number(money);
+ console.log(money)
 console.log(typeof money)
+
+
