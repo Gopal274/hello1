@@ -153,7 +153,7 @@ console.log(10 === 10);
 // 2.equality operator
 
 
-let firstName = "Gopal ";
+let firstName = "    Gopal    ";
 let secondName = "ojha";
 
 
@@ -181,5 +181,29 @@ let secondName = "ojha";
 // console.log(firstName.slice(1,3));
 
 //6.split & join
-console.log(firstName.split(''))
-console.log(firstName.split(' '))
+// console.log(firstName.split('').join("-"))
+// console.log(firstName.split(' '))
+
+//7.includes
+// console.log(firstName.includes("w"))
+
+//Trim
+
+// console.log(firstName.trim());
+
+
+
+//exercise
+let favActorFirstName = "Gopal";
+let favActorLastName = "Ojha";
+
+let favActorFullName = favActorFirstName.concat(favActorLastName)
+
+console.log(favActorFullName.toUpperCase());
+let message = "my favroite actor name is " + favActorFullName + "he is hard working person ";
+message += "is best show is silicon valley";
+
+console.log(message);
+
+
+//
