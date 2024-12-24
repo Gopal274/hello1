@@ -177,6 +177,9 @@ let secondName = "ojha";
 // console.log(firstName.toUpperCase());
 
 //slice
+// console.log(firstName.slice(0,3));
+// console.log(firstName.slice(1,3));
 
-console.log(firstName.slice(0,3));
-console.log(firstName.slice(1,3));
+//6.split & join
+console.log(firstName.split(''))
+console.log(firstName.split(' '))
