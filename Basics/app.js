@@ -206,4 +206,12 @@ message += "is best show is silicon valley";
 console.log(message);
 
 
-//
+//type conversion
+
+let money = "50" ;
+
+//-convert String into number
+console.log(money)
+money = parseInt(money)
+console.log(money)
+console.log(typeof money)
