@@ -216,6 +216,7 @@ let money = "50" ;
 // money = +money;
 // money = Number(money);
  console.log(money)
+
+
 console.log(typeof money)
-
-
+  
