@@ -108,4 +108,15 @@ for (let k = 0; k <= 1000; k++) {
     console.log("Gopal", k);
 }
 
-//
+//while loop
+let l = 0;
+while(l < 2){
+  console.log("hello world",l);
+  l++;
+}
+
+let m = 10 ;
+while(m<111){
+  console.log("Gopal",m);
+  m++
+}
