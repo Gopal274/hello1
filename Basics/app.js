@@ -217,7 +217,7 @@ let money = "50";
 
 //converting number to String
 
-money = toString();
-
+// money = toString();
+money = String(money);
 console.log(money);
 console.log(typeof money);
