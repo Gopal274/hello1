@@ -80,32 +80,32 @@ switch (day) {
         console.log("dont know what day is today");
 }
 
-let fruit = "banana"
-switch(fruit){
-  case "banana":
-    console.log("i like banana");
-    break;
-    case "apple":
-      console.log("how you like apple");
-      break;
-      case "orange":
-        console.log("i am not a fan of orange")
+let fruit = "banana";
+switch (fruit) {
+    case "banana":
+        console.log("i like banana");
         break;
-        default:
+    case "apple":
+        console.log("how you like apple");
+        break;
+    case "orange":
+        console.log("i am not a fan of orange");
+        break;
+    default:
         console.log("i am not heard about that fruit");
 }
 
 // for loop
 
-for (let i = 0; i<= 5; i++){
-  console.log("hello world",i)
-  //nested loop
-  for(let j = 0; j<=2; j++){
-    console.log("hi",j)
-  }
+for (let i = 0; i <= 5; i++) {
+    console.log("hello world", i);
+    //nested loop
+    for (let j = 0; j <= 2; j++) {
+        console.log("hi", j);
+    }
 }
-for( let k = 0; k<=1000; k++){
-  console.log("Gopal",k)
+for (let k = 0; k <= 1000; k++) {
+    console.log("Gopal", k);
 }
 
 //
