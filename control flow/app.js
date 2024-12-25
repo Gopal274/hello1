@@ -41,3 +41,21 @@ else{
 
 //switch statements
 
+let x = 1
+console.log;
+let bulb;
+switch (x) {
+  case 0:
+    bulb = 'off';
+    console.log(bulb)
+    break;
+  case 1: 
+    bulb = "on";
+    console.log(bulb)
+    break;
+  default:
+    bulb = "no velue found"
+    console.log(bulb)
+  
+  
+}
