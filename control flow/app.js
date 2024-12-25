@@ -8,3 +8,10 @@ if (a > b) {
 } else {
     console.log("a is equal to b ");
 }
+
+let time = 10;
+let greet;
+
+if (time<10){
+  greet=
+}
