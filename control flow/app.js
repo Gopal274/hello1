@@ -22,3 +22,22 @@ if (time < 10) {
 } else {
     console.log("good after noon");
 }
+
+
+
+let password =5;
+if (password===8){
+  console.log("welcome")
+}
+else if(password<=8){
+  console.log("password is short")
+}
+else if(password>=8){
+  console.log("password is too long & password should have 8 character")
+}
+else{
+  console.log("please provide password")
+}
+
+//switch statements
+
