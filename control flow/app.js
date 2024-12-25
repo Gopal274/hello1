@@ -121,9 +121,38 @@ while (m <= 100) {
     m++;
 }
 
-let a = 0;
+let c = 0;
 do {
-  console.log("hello",a)
-  a++
-}
-while(a<=10);
+    console.log("hello", c);
+    c++;
+} while (c <= 10);
+
+
+
+
+
+//Arrays --> zero index based
+
+//empty Arrays:-->
+const emptyArray =[]
+console.log(emptyArray);
+
+const numbersArray =[1,2,3,4]
+console.log(numbersArray);
+
+const stringArray = ["eat", "sleep","pleef"]
+console.log(stringArray)
+
+//accessing item from our array
+console.log(stringArray[0])
+console.log(stringArray[1])
+console.log(stringArray[2])
+
+//nested array
+
+const nestArray = [1, "3at ", "float" ,[13 , "frgjgu6"], 6,"gg" ]
+console.log(nestArray)
+console.log(nestArray[3][0])
+
+
+co
