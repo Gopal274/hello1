@@ -1,3 +1,5 @@
+//conditional statements 
+
 let a = 20;
 let b = 20;
 
@@ -13,5 +15,12 @@ let time = 10;
 let greet;
 
 if (time<10){
-  greet=
+  greet= "good morning"
+  console.log(greet)
+}
+else if(time<20){
+  console.log("good night")
+}
+else{
+  console.log("good after noon")
 }
