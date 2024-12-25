@@ -206,7 +206,7 @@ console.log(message);
 
 //type conversion
 
-let money = "50";
+let money = "50.456";
 
 //-convert String into number:-
 
@@ -215,9 +215,13 @@ let money = "50";
 // money = +money;
 // money = Number(money);
 
-//converting number to String
+//converting number to String:-
 
 // money = toString();
-money = String(money);
+// money = String(money);
+
+// converting String to decimal:-convert
+money = parseFloat(money);
+
 console.log(money);
 console.log(typeof money);
