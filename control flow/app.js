@@ -79,3 +79,18 @@ switch (day) {
     default:
         console.log("dont know what day is today");
 }
+
+let fruit = "banana"
+switch(fruit){
+  case "banana":
+    console.log("i like banana");
+    break;
+    case "apple":
+      console.log("how you like apple");
+      break;
+      case "orange":
+        console.log("i am not a fan of orange")
+        break;
+        default:
+        console.log("i am not heard about that fruit")
+}
