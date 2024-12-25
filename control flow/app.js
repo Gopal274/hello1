@@ -116,7 +116,7 @@ while(l < 2){
 }
 
 let m = 10 ;
-while(m<111){
+while(m<=100){
   console.log("Gopal",m);
   m++
 }
