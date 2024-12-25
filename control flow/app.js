@@ -5,7 +5,6 @@ if (a > b) {
     console.log("a is greater than b");
 } else if (a > b) {
     console.log("a is smaller then b");
-}
-else{
-  console.log("a is equal t ")
+} else {
+    console.log("a is equal to ");
 }
