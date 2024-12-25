@@ -110,13 +110,14 @@ for (let k = 0; k <= 1000; k++) {
 
 //while loop
 let l = 0;
-while(l < 2){
-  console.log("hello world",l);
-  l++;
+while (l < 2) {
+    console.log("hello world", l);
+    l++;
 }
 
-let m = 10 ;
-while(m<=100){
-  console.log("Gopal",m);
-  m++
+let m = 10;
+while (m <= 100) {
+    console.log("Gopal", m);
+    m++;
 }
+
