@@ -218,6 +218,6 @@ let money = "50";
 //converting number to String
 
 // money = toString();
-money = String(money)
+money = String(money);
 console.log(money);
 console.log(typeof money);
