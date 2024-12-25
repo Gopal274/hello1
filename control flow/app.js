@@ -121,3 +121,9 @@ while (m <= 100) {
     m++;
 }
 
+let a = 0;
+do {
+  console.log("hello",a)
+  a++
+}
+while(a<=10);
