@@ -7,11 +7,11 @@ console.clear();
 console.warn("this is a warning");
 console.error("this is a warning");
 console.table({
-  name: "huzain",
-  age: 20,
+    name: "huzain",
+    age: 20
 });
 console.log({
-  name: "alex",
+    name: "alex"
 });
 
 //comments
@@ -152,10 +152,8 @@ console.log(10 === 10);
 
 // 2.equality operator
 
-
 let firstName = "    Gopal    ";
 let secondName = "ojha";
-
 
 //1.concatenation
 // fullName = firstName.concat(secondName);
@@ -191,32 +189,35 @@ let secondName = "ojha";
 
 // console.log(firstName.trim());
 
-
-
 //exercise
 let favActorFirstName = "Gopal";
 let favActorLastName = "Ojha";
 
-let favActorFullName = favActorFirstName.concat(favActorLastName)
+let favActorFullName = favActorFirstName.concat(favActorLastName);
 
 console.log(favActorFullName.toUpperCase());
-let message = "my favroite actor name is " + favActorFullName + "he is hard working person ";
+let message =
+    "my favroite actor name is " +
+    favActorFullName +
+    "he is hard working person ";
 message += "is best show is silicon valley";
 
 console.log(message);
 
-
 //type conversion
 
-let money = "50" ;
+let money = "50";
 
-//-convert String into number
+//-convert String into number:-
+
 // console.log(money)
 // money = parseInt(money)
 // money = +money;
 // money = Number(money);
- console.log(money)
 
+//converting number to String
 
-console.log(typeof money)
+money = toString();
 
+console.log(money);
+console.log(typeof money);
