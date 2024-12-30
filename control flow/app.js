@@ -155,4 +155,32 @@ console.log(nestArray)
 console.log(nestArray[3][0])
 
 
-co
+const fruits = [
+  "apples",
+  "pomagranate",
+  "mango",
+  "strawberry",
+  "pineapple",
+  "grapefruit,"];
+  
+  // console.log(fruits);
+//   fruits.push('banana');
+  
+  // fruits.pop()
+  // fruits.shift()
+  // fruits.unshift("orange")
+//   console.log(fruits)
+
+
+
+const moreFruits = ['banana',"orange"]
+
+const totalFruits = fruits.concat(moreFruits)
+console.log(totalFruits)
+
+const pl = ["javascript","python","golang","php"];
+const num = [1, 2, 3, 4, 5];
+console.log(pl.includes("golang"))
+console.log(pl.includes("dart"))
+console.log(pl.join("-"))
+console.log(pl.reverse())
