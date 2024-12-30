@@ -184,3 +184,65 @@ console.log(pl.includes("golang"))
 console.log(pl.includes("dart"))
 console.log(pl.join("-"))
 console.log(pl.reverse())
+
+console.log(num.sort());
+
+
+
+
+//objects -->{label:value}
+
+const person = {
+  firstName :"Gopal",
+  lastName :"Ojha",
+  age :17,
+  location:["planet","earth"],
+  isProgrammer:true,
+  
+}
+
+console.log(person.length)
+console.log(person)
+console.log(typeof person)
+
+const arr = []
+console.log(typeof arr)
+
+//accessing items from objects 
+console.log(person.age)
+console.log(person.firstName)
+console.log(person.lastName)
+console.log(person.location)
+console.log(person.isProgrammer)
+
+console.log(person["firstName"])
+console.log(person["lastName"])
+console.log(person["age"])
+console.log(person["location"])
+console.log(person["isProgrammer"])
+
+person.favFruit ="kaju"
+delete person.firstName
+console.log(person)
+
+// excercise 
+
+const car = {
+  type : "maruti",
+  model: "360",
+  color: "green",
+}
+car.wheels = "circle"
+
+console.log(typeof car)
+console.log(car.type = "toyato")
+console.log(car)
+
+// function
+
+function greet1(){
+  console.log("hello from function")
+}
+
+// call, run excute 
+greet1()
