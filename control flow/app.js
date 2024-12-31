@@ -238,3 +238,34 @@ function greet1() {
 greet1();
 greet1();
 greet1();
+
+function sayHello (name){
+  console.log("Hello ${name}")
+  console.log("Hello" + " " + name)
+}
+
+sayHello("gopal");
+sayHello("alex");
+sayHello("huxn");
+
+// return-->  function
+
+function add(x, y){
+  return x + y;
+}
+
+// console.log(add(10,20))
+
+const res1 = add(10,20)
+const res2 = add(100,200)
+const res3 = add(1000,2000)
+console.log(res1)
+console.log(res2)
+console.log(res3)
+
+function showCallFun(fn){
+  const value = 10;
+  fn(value)
+}
+
+showCallFun(function(value){console.log(value)})
