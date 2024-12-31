@@ -127,122 +127,114 @@ do {
     c++;
 } while (c <= 10);
 
-
-
-
-
 //Arrays --> zero index based
 
 //empty Arrays:-->
-const emptyArray =[]
+const emptyArray = [];
 console.log(emptyArray);
 
-const numbersArray =[1,2,3,4]
+const numbersArray = [1, 2, 3, 4];
 console.log(numbersArray);
 
-const stringArray = ["eat", "sleep","pleef"]
-console.log(stringArray)
+const stringArray = ["eat", "sleep", "pleef"];
+console.log(stringArray);
 
 //accessing item from our array
-console.log(stringArray[0])
-console.log(stringArray[1])
-console.log(stringArray[2])
+console.log(stringArray[0]);
+console.log(stringArray[1]);
+console.log(stringArray[2]);
 
 //nested array
 
-const nestArray = [1, "3at ", "float" ,[13 , "frgjgu6"], 6,"gg" ]
-console.log(nestArray)
-console.log(nestArray[3][0])
-
+const nestArray = [1, "3at ", "float", [13, "frgjgu6"], 6, "gg"];
+console.log(nestArray);
+console.log(nestArray[3][0]);
 
 const fruits = [
-  "apples",
-  "pomagranate",
-  "mango",
-  "strawberry",
-  "pineapple",
-  "grapefruit,"];
-  
-  // console.log(fruits);
+    "apples",
+    "pomagranate",
+    "mango",
+    "strawberry",
+    "pineapple",
+    "grapefruit,"
+];
+
+// console.log(fruits);
 //   fruits.push('banana');
-  
-  // fruits.pop()
-  // fruits.shift()
-  // fruits.unshift("orange")
+
+// fruits.pop()
+// fruits.shift()
+// fruits.unshift("orange")
 //   console.log(fruits)
 
+const moreFruits = ["banana", "orange"];
 
+const totalFruits = fruits.concat(moreFruits);
+console.log(totalFruits);
 
-const moreFruits = ['banana',"orange"]
-
-const totalFruits = fruits.concat(moreFruits)
-console.log(totalFruits)
-
-const pl = ["javascript","python","golang","php"];
+const pl = ["javascript", "python", "golang", "php"];
 const num = [1, 2, 3, 4, 5];
-console.log(pl.includes("golang"))
-console.log(pl.includes("dart"))
-console.log(pl.join("-"))
-console.log(pl.reverse())
+console.log(pl.includes("golang"));
+console.log(pl.includes("dart"));
+console.log(pl.join("-"));
+console.log(pl.reverse());
 
 console.log(num.sort());
-
-
-
 
 //objects -->{label:value}
 
 const person = {
-  firstName :"Gopal",
-  lastName :"Ojha",
-  age :17,
-  location:["planet","earth"],
-  isProgrammer:true,
-  
-}
+    firstName: "Gopal",
+    lastName: "Ojha",
+    age: 17,
+    location: ["planet", "earth"],
+    isProgrammer: true
+};
 
-console.log(person.length)
-console.log(person)
-console.log(typeof person)
+console.log(person.length);
+console.log(person);
+console.log(typeof person);
 
-const arr = []
-console.log(typeof arr)
+const arr = [];
+console.log(typeof arr);
 
-//accessing items from objects 
-console.log(person.age)
-console.log(person.firstName)
-console.log(person.lastName)
-console.log(person.location)
-console.log(person.isProgrammer)
+//accessing items from objects
+console.log(person.age);
+console.log(person.firstName);
+console.log(person.lastName);
+console.log(person.location);
+console.log(person.isProgrammer);
 
-console.log(person["firstName"])
-console.log(person["lastName"])
-console.log(person["age"])
-console.log(person["location"])
-console.log(person["isProgrammer"])
+console.log(person["firstName"]);
+console.log(person["lastName"]);
+console.log(person["age"]);
+console.log(person["location"]);
+console.log(person["isProgrammer"]);
 
-person.favFruit ="kaju"
-delete person.firstName
-console.log(person)
+person.favFruit = "kaju";
+delete person.firstName;
+console.log(person);
 
-// excercise 
+// excercise
 
 const car = {
-  type : "maruti",
-  model: "360",
-  color: "green",
-}
-car.wheels = "circle"
+    type: "maruti",
+    model: "360",
+    color: "green"
+};
+car.wheels = "circle";
 
-console.log(typeof car)
-console.log(car.type = "toyato")
-console.log(car)
+console.log(typeof car);
+console.log((car.type = "toyato"));
+console.log(car);
 
 // function
 
-function greet1(){
-  console.log("hello from function")
+function greet1() {
+    console.log("hello from function");
 }
 
-// call, run excute 
-greet1()
+// call, run excute
+greet1();
+greet1();
+greet1();
