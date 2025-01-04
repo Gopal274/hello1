@@ -12,5 +12,4 @@ init main(){
   cout<<"/n";
   cout<<"hello world"
   
-  
 }
