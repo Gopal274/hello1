@@ -9,7 +9,7 @@ init main(){
   
   cout<<endl;
   cout<<"hello world ";
-  cout<<"/n";
+  cout<<"\n";
   cout<<"hello world"
   
 }
