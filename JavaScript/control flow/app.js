@@ -274,3 +274,5 @@ showCallFun(function (value) {
 
 console.log("hello");
 console.log("world");
+console.log("world");
+console.log("world");
