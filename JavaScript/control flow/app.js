@@ -61,8 +61,8 @@
 //     case "tuesday":
 //         console.log("today is tuesday");
 //         break;
-//     case "wensday":
-//         console.log("today is wensday");
+//     case "wednesday":
+//         console.log("today is wenesday");
 //         break;
 //     case "thursday":
 //         console.log("today is thursday");
@@ -216,7 +216,7 @@
 // delete person.firstName;
 // console.log(person);
 //
-// excercise
+// exercise
 //
 // const car = {
 //     type: "maruti",
@@ -232,17 +232,17 @@
 // function
 //
 function greet1() {
-    console.log("hello from function");
+  console.log("hello from function");
 }
 
-// call, run excute
+// call, run execute
 greet1();
 greet1();
 greet1();
 
 function sayHello(name) {
-    console.log("Hello ${name}");
-    console.log("Hello" + " " + name);
+  console.log("Hello ${name}");
+  console.log("Hello" + " " + name);
 }
 
 sayHello("gopal");
@@ -252,7 +252,7 @@ sayHello("huxn");
 // return-->  function
 
 function add(x, y) {
-    return x + y;
+  return x + y;
 }
 
 // console.log(add(10,20))
@@ -265,15 +265,38 @@ console.log(res2);
 console.log(res3);
 
 function showCallFun(fn) {
-    const value = 10;
-    fn(value);
+  const value = 10;
+  fn(value);
 }
 
 showCallFun(function (value) {
-    console.log(value);
+  console.log(value);
 });
 
 console.log("hello");
 console.log("world");
 console.log("world");
+// write a function that takes two numbers and return the sum of two numbers
+function addTwoNumbers(num1, num2) {
+  return num1 + num2;
+}
+const result = addTwoNumbers(10, 20);
+console.log(result); // 3
+function showCallFun(fn) {
+  const value = 10;
+  fn(value);
+}
+
+showCallFun(function (value) {
+  console.log(value);
+});
+
+console.log("hello");
 console.log("world");
+console.log("world");
+// write a function that takes two numbers and return the sum of two numbers
+function addTwoNumbers(num1, num2) {
+  return num1 + num2;
+}
+const result = addTwoNumbers(10, 20);
+console.log(result); // 3

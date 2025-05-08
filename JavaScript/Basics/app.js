@@ -7,11 +7,11 @@ console.clear();
 console.warn("this is a warning");
 console.error("this is a warning");
 console.table({
-    name: "huzain",
-    age: 20
+  name: "huzain",
+  age: 20,
 });
 console.log({
-    name: "alex"
+  name: "alex",
 });
 
 //comments
@@ -197,9 +197,9 @@ let favActorFullName = favActorFirstName.concat(favActorLastName);
 
 console.log(favActorFullName.toUpperCase());
 let message =
-    "my favroite actor name is " +
-    favActorFullName +
-    "he is hard working person ";
+  "my favroite actor name is " +
+  favActorFullName +
+  "he is hard working person ";
 message += "is best show is silicon valley";
 
 console.log(message);
@@ -225,3 +225,5 @@ money = parseFloat(money);
 
 console.log(money);
 console.log(typeof money);
+console.log(money.toFixed(2));
+console.log(money.toPrecision(2));
